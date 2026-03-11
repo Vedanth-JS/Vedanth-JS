@@ -8,7 +8,7 @@
 ---
 
 ### 🎓 B.E. Computer Science & Engineering
-**Siddaganga Institute of Technology, Tumkur** · CGPA: **8.7 / 10** · Batch of **2027**
+**Siddaganga Institute of Technology, Tumkur** · CGPA: **8.7 / 10** · Batch of **2028**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vedanth-j-s)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vedanth-JS)
