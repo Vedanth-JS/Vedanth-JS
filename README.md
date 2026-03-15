@@ -25,7 +25,7 @@ public class Vedanth {
 
     String[] currentlyLearning = {"Spring Boot Ecosystem", "AI/ML", "Cloud & DevOps"};
     String[] interestedIn      = {"FinTech", "AI Systems", "Cybersecurity", "Full-Stack"};
-    String   openTo            = "Summer Internships 2027 | Freelance Projects";
+    String   openTo            = "Summer Internships 2028 | Freelance Projects";
     String   funFact           = "I built an AI that screens resumes — including mine 😄";
 
     public String askMeAbout() {
