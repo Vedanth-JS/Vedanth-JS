@@ -25,8 +25,8 @@ Computer Science Engineering Student • Full Stack Developer • Java Developer
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
 </a>
 
-<a href="https://leetcode.com/vedanth_1_8">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white">
+<a href="https://neetcode.io/profile/vedanth_1_8">
+<img src="https://img.shields.io/badge/NeetCode-0284c7?style=for-the-badge&logo=leetcode&logoColor=white">
 </a>
 
 <a href="https://linkedin.com/in/vedanth-j-s">
@@ -68,7 +68,7 @@ public class Vedanth {
 - ⚛️ Learning React & Next.js
 - 🤖 Exploring Artificial Intelligence & Machine Learning
 - 📚 Learning System Design
-- 🔥 Solving NeetCode 150 & LeetCode Problems
+- 🔥 Solving NeetCode 150 Problems
 
 ---
 
