@@ -145,6 +145,7 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vedanth-JS&l
 | Repository | Tech Stack | Overview / Description |
 |------------|------------|------------------------|
 | [📄 AI-Resume-Screening-System](https://github.com/Vedanth-JS/AI-Resume-Screening-System) | Python, ML | Machine learning parser to automatically extract, scan, and rank resumes. |
+| [👁️ Online-Exam-Cheating-Detection](https://github.com/Vedanth-JS/Online-Exam-Cheating-Detection) | JavaScript, CV | Proctoring platform using computer vision to track behavior and flag anomalies. |
 | [🚗 smart-traffic-management](https://github.com/Vedanth-JS/smart-traffic-management) | Python, OpenCV | Intelligent traffic routing using deep learning vehicle detection models. |
 
 <br/>
@@ -172,6 +173,17 @@ An end-to-end intelligent city grid traffic manager designed to optimize flow an
 *   **Adaptive Signal Control**: Dynamically adjusts traffic light timings based on real-time vehicle density to minimize idling times.
 *   **Live Dashboard**: High-fidelity control panel built with **React** & **Tailwind CSS** showing zero-latency intersection health metrics via **WebSockets**.
 *   **Incident Logging**: Automatically flags traffic anomalies, road hazards, and collisions, with admin control panels to override lights for emergency vehicle routing.
+
+---
+
+### 👁️ [ExamGuard: AI-Powered Exam Proctoring](https://github.com/Vedanth-JS/Online-Exam-Cheating-Detection)
+An automated, full-stack online examination proctoring solution designed to detect, track, and flag academic dishonesty in real-time.
+
+*   **Edge Computer Vision**: Employs **TensorFlow.js (BlazeFace)** directly on the client browser web camera to count faces, verify student presence, and detect looking away without server overhead.
+*   **Tamper Proofing**: Enforces strict security by detecting tab switching, intercepting window focus loss, blocking keyboard copy-paste shortcuts (`Ctrl+C`, `Ctrl+V`), and disabling right-click inspections.
+*   **Proctor Command Center**: Sleek administration dashboard using **WebSockets** (`ws`) to monitor active candidate feeds and broadcast targeted real-time warnings directly to exam takers.
+*   **Relational Logs**: Utilizes **Node.js, Express, and SQLite3** to log exam events and compile automated integrity reports highlighting "Risk Scores" and "Severity Heatmaps".
+*   **Aesthetic UI**: Formatted as a high-fidelity dashboard styled with **React 18, Vite, and Tailwind CSS**.
 
 ---
 
