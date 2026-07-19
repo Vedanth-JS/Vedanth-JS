@@ -153,30 +153,29 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vedanth-JS&l
 
 <br/>
 
-<p align="center">
-  <a href="https://github.com/Vedanth-JS/smart-traffic-management">
-    <img src="https://github-readme-stats.vercel.app/api/pin?username=Vedanth-JS&repo=smart-traffic-management&theme=tokyonight&hide_border=true" height="120" />
-  </a>
-  <a href="https://github.com/Vedanth-JS/AI-Girlfriend">
-    <img src="https://github-readme-stats.vercel.app/api/pin?username=Vedanth-JS&repo=AI-Girlfriend&theme=tokyonight&hide_border=true" height="120" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Vedanth-JS/AI-Resume-Screening-System">
-    <img src="https://github-readme-stats.vercel.app/api/pin?username=Vedanth-JS&repo=AI-Resume-Screening-System&theme=tokyonight&hide_border=true" height="120" />
-  </a>
-  <a href="https://github.com/Vedanth-JS/Online-Exam-Cheating-Detection">
-    <img src="https://github-readme-stats.vercel.app/api/pin?username=Vedanth-JS&repo=Online-Exam-Cheating-Detection&theme=tokyonight&hide_border=true" height="120" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Vedanth-JS/banking-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin?username=Vedanth-JS&repo=banking-app&theme=tokyonight&hide_border=true" height="120" />
-  </a>
-  <a href="https://github.com/Vedanth-JS/neetcode-submissions">
-    <img src="https://github-readme-stats.vercel.app/api/pin?username=Vedanth-JS&repo=neetcode-submissions&theme=tokyonight&hide_border=true" height="120" />
-  </a>
-</p>
+---
+
+## 🛠️ Flagship Project Showcases
+
+### 📄 [AI Resume Screening System (ATS)](https://github.com/Vedanth-JS/AI-Resume-Screening-System)
+An enterprise-grade, asynchronous Applicant Tracking System designed to modernize recruitment workflows by automating resume screening, parsing, and ranking with advanced AI agents.
+
+*   **AI Engine**: Powered by **Google Gemini 1.5** for high-speed document extraction, semantic reasoning, and scoring.
+*   **Multi-Agent Pipeline**: Leveraging **LangGraph** to coordinate specialized agents (Resume Parser, Skill Matcher, Bias Detector, and Scoring Engine).
+*   **High-Concurrency Backend**: Built with **FastAPI** (Python 3.11) and **Celery + Redis** to screen 100+ resumes asynchronously in parallel.
+*   **Vector Search**: Integrated with **PostgreSQL + pgvector** for storing relational candidate data and computing skill similarity embeddings.
+*   **Analytics Dashboard**: Premium glassmorphic interface built with **React 18 + Vite**, using Server-Sent Events (SSE) for zero-latency upload progress sync.
+
+---
+
+### 🚗 [AI-Powered Smart Traffic Management](https://github.com/Vedanth-JS/smart-traffic-management)
+An end-to-end intelligent city grid traffic manager designed to optimize flow and mitigate congestion using real-time Computer Vision and Predictive AI.
+
+*   **Vehicle Tracking**: Incorporates **YOLOv8** and **OpenCV** to detect, count, and classify vehicles across multiple lanes and intersections with high precision.
+*   **Predictive Forecasting**: Features a **PyTorch LSTM** deep learning model trained to forecast future lane density patterns.
+*   **Adaptive Signal Control**: Dynamically adjusts traffic light timings based on real-time vehicle density to minimize idling times.
+*   **Live Dashboard**: High-fidelity control panel built with **React** & **Tailwind CSS** showing zero-latency intersection health metrics via **WebSockets**.
+*   **Incident Logging**: Automatically flags traffic anomalies, road hazards, and collisions, with admin control panels to override lights for emergency vehicle routing.
 
 ---
 
