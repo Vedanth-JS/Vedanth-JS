@@ -1,43 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" width="100%" height="100%">
-  <!-- Definition of gradients and filters -->
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0e14" />
-      <stop offset="100%" stop-color="#161b22" />
-    </linearGradient>
-    
-    <!-- Neon Accent Gradients -->
-    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3b82f6" /> <!-- Blue -->
-      <stop offset="50%" stop-color="#8b5cf6" /> <!-- Purple -->
-      <stop offset="100%" stop-color="#ec4899" /> <!-- Pink -->
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="100%" stop-color="#0f172a" />
     </linearGradient>
 
-    <linearGradient id="cyan-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    <!-- Glowing Text Gradient -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa" /> <!-- Purple -->
+      <stop offset="100%" stop-color="#38bdf8" /> <!-- Cyan -->
+    </linearGradient>
+
+    <!-- Border Gradient for Badges -->
+    <linearGradient id="border-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.2"/>
     </linearGradient>
     
-    <linearGradient id="pink-grad" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    <linearGradient id="border-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#5b21b6" stop-opacity="0.2"/>
     </linearGradient>
+
+    <linearGradient id="border-slate" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#475569" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Slash Line Gradient -->
+    <linearGradient id="slash-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#a78bfa" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Blue Background Glow -->
+    <radialGradient id="blue-glow" cx="80%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
 
     <!-- Grid Pattern -->
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#21262d" stroke-width="0.7" opacity="0.6"/>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#1e293b" stroke-width="0.5" opacity="0.4"/>
     </pattern>
 
-    <!-- Neon Glow Filter -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="15" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <filter id="soft-glow" x="-10%" y="-10%" width="120%" height="120%">
+    <!-- Glow Filter -->
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="6" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
@@ -46,76 +58,111 @@
     </filter>
   </defs>
 
-  <!-- Background Canvas -->
-  <rect width="850" height="300" fill="url(#bg-grad)" rx="15" />
+  <!-- Background -->
+  <rect width="850" height="300" fill="url(#bg-grad)" rx="12" />
+  <rect width="850" height="300" fill="url(#blue-glow)" rx="12" />
+  <rect width="850" height="300" fill="url(#grid)" rx="12" />
+
+  <!-- Diagonal Separator/Slash -->
+  <line x1="330" y1="20" x2="305" y2="280" stroke="url(#slash-grad)" stroke-width="2" />
+
+  <!-- Faint Background Brackets -->
+  <text x="385" y="165" font-family="'Segoe UI', system-ui, sans-serif" font-weight="300" font-size="70" fill="#38bdf8" opacity="0.12" text-anchor="middle">&lt;</text>
+  <text x="425" y="170" font-family="'Segoe UI', system-ui, sans-serif" font-weight="300" font-size="50" fill="#a78bfa" opacity="0.08" text-anchor="middle">/</text>
+  <text x="425" y="165" font-family="'Segoe UI', system-ui, sans-serif" font-weight="300" font-size="70" fill="#a78bfa" opacity="0.12" text-anchor="middle">&gt;</text>
+
+  <!-- ================= LEFT COLUMN ================= -->
   
-  <!-- Ambient Glow Elements -->
-  <circle cx="100" cy="50" r="180" fill="url(#cyan-grad)" filter="url(#glow)" />
-  <circle cx="750" cy="250" r="200" fill="url(#pink-grad)" filter="url(#glow)" />
-
-  <!-- Grid overlay -->
-  <rect width="850" height="300" fill="url(#grid)" rx="15" />
-
-  <!-- Decorative Abstract Tech Waves -->
-  <!-- Wave 1 -->
-  <path d="M-50 200 C 150 120, 300 280, 500 160 C 650 70, 750 220, 900 180" fill="none" stroke="url(#primary-grad)" stroke-width="2" opacity="0.3" />
-  <!-- Wave 2 -->
-  <path d="M-50 215 C 170 145, 280 295, 480 185 C 630 100, 760 235, 900 200" fill="none" stroke="url(#primary-grad)" stroke-width="1" opacity="0.2" />
-
-  <!-- Floating Tech Constellations -->
-  <g opacity="0.4">
-    <line x1="80" y1="220" x2="150" y2="180" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="2 2" />
-    <line x1="150" y1="180" x2="220" y2="230" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="2 2" />
-    <circle cx="80" cy="220" r="3" fill="#38bdf8" />
-    <circle cx="150" cy="180" r="4" fill="#a78bfa" filter="url(#soft-glow)" />
-    <circle cx="220" cy="230" r="3" fill="#f472b6" />
-
-    <line x1="630" y1="70" x2="700" y2="120" stroke="#f472b6" stroke-width="0.5" stroke-dasharray="2 2" />
-    <line x1="700" y1="120" x2="770" y2="60" stroke="#f472b6" stroke-width="0.5" stroke-dasharray="2 2" />
-    <circle cx="630" cy="70" r="3" fill="#a78bfa" />
-    <circle cx="700" cy="120" r="4" fill="#f472b6" filter="url(#soft-glow)" />
-    <circle cx="770" cy="60" r="3" fill="#38bdf8" />
+  <!-- Status Badge / Open to Internships -->
+  <g transform="translate(50, 48)">
+    <line x1="0" y1="0" x2="12" y2="0" stroke="#38bdf8" stroke-width="1.5" />
+    <text x="20" y="4" font-family="'Segoe UI', system-ui, sans-serif" font-weight="600" font-size="9.5" fill="#38bdf8" letter-spacing="2">OPEN TO INTERNSHIPS</text>
   </g>
 
-  <!-- Top/Bottom decorative lines -->
-  <rect x="50" y="25" width="750" height="2" fill="url(#primary-grad)" opacity="0.8" />
-  <!-- Bottom decorative line -->
-  <rect x="50" y="273" width="750" height="2" fill="url(#primary-grad)" opacity="0.8" />
+  <!-- Name: VEDANTH J S -->
+  <text x="50" y="110" font-family="'Segoe UI', system-ui, sans-serif" font-weight="800" font-size="48" fill="#ffffff" letter-spacing="2">VEDANTH</text>
+  <text x="50" y="165" font-family="'Segoe UI', system-ui, sans-serif" font-weight="800" font-size="48" fill="url(#text-grad)" letter-spacing="2" filter="url(#soft-glow)">J S</text>
 
-  <!-- Main Content Layout (Centered) -->
-  <g>
-    <!-- Decorative brackets -->
-    <text x="110" y="145" font-family="'Segoe UI', system-ui, sans-serif" font-weight="300" font-size="52" fill="#38bdf8" opacity="0.4" text-anchor="middle">&lt;</text>
-    <text x="740" y="145" font-family="'Segoe UI', system-ui, sans-serif" font-weight="300" font-size="52" fill="#f472b6" opacity="0.4" text-anchor="middle">/&gt;</text>
+  <!-- Title/Role -->
+  <text x="50" y="210" font-family="'Segoe UI', system-ui, sans-serif" font-weight="400" font-size="16.5" fill="#cbd5e1" letter-spacing="0.5">Full-Stack Engineer / AI-ML</text>
 
-    <!-- Main Title -->
-    <text x="425" y="130" font-family="'Segoe UI', system-ui, sans-serif" font-weight="800" font-size="44" fill="#ffffff" letter-spacing="4" text-anchor="middle">
-      VEDANTH J S
-    </text>
-    <!-- Accent line below name -->
-    <rect x="285" y="145" width="280" height="4" rx="2" fill="url(#primary-grad)" filter="url(#soft-glow)" />
+  <!-- Social / Links -->
+  <g transform="translate(50, 246)">
+    <!-- Active Green Dot -->
+    <circle cx="5" cy="-4" r="2.5" fill="#10b981" filter="url(#soft-glow)" />
+    <text x="14" y="0" font-family="'Segoe UI', system-ui, sans-serif" font-weight="400" font-size="10.5" fill="#64748b" letter-spacing="0.5">github.com/Vedanth-</text>
+    <text x="14" y="12" font-family="'Segoe UI', system-ui, sans-serif" font-weight="400" font-size="9.5" fill="#cbd5e1" letter-spacing="0.5">JS</text>
 
-    <!-- Subtitle / Role -->
-    <text x="425" y="190" font-family="'Segoe UI', system-ui, sans-serif" font-weight="400" font-size="18" fill="#c9d1d9" letter-spacing="1" text-anchor="middle">
-      Full Stack Software Engineer &amp; Designer
-    </text>
+    <text x="140" y="0" font-family="'Segoe UI', system-ui, sans-serif" font-weight="400" font-size="10.5" fill="#64748b" letter-spacing="0.5">linkedin.com/in/vedanth-j-</text>
+    <text x="140" y="12" font-family="'Segoe UI', system-ui, sans-serif" font-weight="400" font-size="9.5" fill="#cbd5e1" letter-spacing="0.5">s</text>
+  </g>
 
-    <!-- Dynamic Status Tags (Pills, Centered) -->
-    <g transform="translate(238, 215)">
-      <!-- Tag 1 -->
-      <rect x="0" y="0" width="130" height="26" rx="13" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="15" cy="13" r="4" fill="#2ea043" />
-      <text x="27" y="18" font-family="'Segoe UI', system-ui, sans-serif" font-weight="600" font-size="11" fill="#8b949e" letter-spacing="0.5">OPEN FOR COLLAB</text>
 
-      <!-- Tag 2 -->
-      <rect x="142" y="0" width="105" height="26" rx="13" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <text x="15" y="17" font-family="'Segoe UI', system-ui, sans-serif" font-weight="600" font-size="12" fill="#8b949e">⚡</text>
-      <text x="32" y="18" font-family="'Segoe UI', system-ui, sans-serif" font-weight="600" font-size="11" fill="#8b949e" letter-spacing="0.5">BUILDING WEB3</text>
+  <!-- ================= RIGHT COLUMN ================= -->
 
-      <!-- Tag 3 -->
-      <rect x="259" y="0" width="115" height="26" rx="13" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <text x="15" y="17" font-family="'Segoe UI', system-ui, sans-serif" font-weight="600" font-size="12" fill="#8b949e">🚀</text>
-      <text x="32" y="18" font-family="'Segoe UI', system-ui, sans-serif" font-weight="600" font-size="11" fill="#8b949e" letter-spacing="0.5">AI ENTHUSIAST</text>
+  <!-- Core Stack Section -->
+  <g transform="translate(450, 85)">
+    <!-- Header -->
+    <text x="0" y="0" font-family="'Segoe UI', system-ui, sans-serif" font-weight="600" font-size="9.5" fill="#64748b" letter-spacing="2">CORE STACK</text>
+
+    <!-- Badge Row 1 -->
+    <g transform="translate(0, 12)">
+      <!-- React -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="55" height="24" rx="6" fill="#0f172a" fill-opacity="0.6" stroke="url(#border-blue)" stroke-width="1" />
+        <text x="27.5" y="15" font-family="'Segoe UI', system-ui, sans-serif" font-weight="500" font-size="10.5" fill="#93c5fd" text-anchor="middle">React</text>
+      </g>
+      <!-- Node.js -->
+      <g transform="translate(63, 0)">
+        <rect x="0" y="0" width="65" height="24" rx="6" fill="#0f172a" fill-opacity="0.6" stroke="url(#border-purple)" stroke-width="1" />
+        <text x="32.5" y="15" font-family="'Segoe UI', system-ui, sans-serif" font-weight="500" font-size="10.5" fill="#c084fc" text-anchor="middle">Node.js</text>
+      </g>
+      <!-- FastAPI -->
+      <g transform="translate(136, 0)">
+        <rect x="0" y="0" width="65" height="24" rx="6" fill="#0f172a" fill-opacity="0.6" stroke="url(#border-blue)" stroke-width="1" />
+        <text x="32.5" y="15" font-family="'Segoe UI', system-ui, sans-serif" font-weight="500" font-size="10.5" fill="#93c5fd" text-anchor="middle">FastAPI</text>
+      </g>
+      <!-- Spring Boot -->
+      <g transform="translate(209, 0)">
+        <rect x="0" y="0" width="85" height="24" rx="6" fill="#0f172a" fill-opacity="0.6" stroke="url(#border-slate)" stroke-width="1" />
+        <text x="42.5" y="15" font-family="'Segoe UI', system-ui, sans-serif" font-weight="500" font-size="10.5" fill="#94a3b8" text-anchor="middle">Spring Boot</text>
+      </g>
+    </g>
+
+    <!-- Badge Row 2 -->
+    <g transform="translate(0, 46)">
+      <!-- PostgreSQL -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="80" height="24" rx="6" fill="#0f172a" fill-opacity="0.6" stroke="url(#border-slate)" stroke-width="1" />
+        <text x="40" y="15" font-family="'Segoe UI', system-ui, sans-serif" font-weight="500" font-size="10.5" fill="#94a3b8" text-anchor="middle">PostgreSQL</text>
+      </g>
+      <!-- TensorFlow.js -->
+      <g transform="translate(88, 0)">
+        <rect x="0" y="0" width="98" height="24" rx="6" fill="#0f172a" fill-opacity="0.6" stroke="url(#border-purple)" stroke-width="1" />
+        <text x="49" y="15" font-family="'Segoe UI', system-ui, sans-serif" font-weight="500" font-size="10.5" fill="#c084fc" text-anchor="middle">TensorFlow.js</text>
+      </g>
+      <!-- Python -->
+      <g transform="translate(194, 0)">
+        <rect x="0" y="0" width="60" height="24" rx="6" fill="#0f172a" fill-opacity="0.6" stroke="url(#border-slate)" stroke-width="1" />
+        <text x="30" y="15" font-family="'Segoe UI', system-ui, sans-serif" font-weight="500" font-size="10.5" fill="#94a3b8" text-anchor="middle">Python</text>
+      </g>
+      <!-- Java -->
+      <g transform="translate(262, 0)">
+        <rect x="0" y="0" width="45" height="24" rx="6" fill="#0f172a" fill-opacity="0.6" stroke="url(#border-slate)" stroke-width="1" />
+        <text x="22.5" y="15" font-family="'Segoe UI', system-ui, sans-serif" font-weight="500" font-size="10.5" fill="#94a3b8" text-anchor="middle">Java</text>
+      </g>
+    </g>
+
+    <!-- Separator Line -->
+    <line x1="0" y1="90" x2="350" y2="90" stroke="#1e293b" stroke-width="1.2" opacity="0.6" />
+
+    <!-- College Info / Bottom details -->
+    <g transform="translate(0, 108)">
+      <text x="0" y="0" font-family="'Segoe UI', system-ui, sans-serif" font-weight="400" font-size="10.5" fill="#64748b" letter-spacing="0.5">Siddaganga Institute of Technology ·</text>
+      <text x="0" y="13" font-family="'Segoe UI', system-ui, sans-serif" font-weight="600" font-size="9" fill="#475569" letter-spacing="1">CSE 2028</text>
+
+      <text x="220" y="0" font-family="'Segoe UI', system-ui, sans-serif" font-weight="400" font-size="10.5" fill="#64748b" letter-spacing="0.5">Building real-time &amp; AI-powered</text>
+      <text x="220" y="13" font-family="'Segoe UI', system-ui, sans-serif" font-weight="400" font-size="10.5" fill="#64748b" letter-spacing="0.5">systems</text>
     </g>
   </g>
 </svg>
