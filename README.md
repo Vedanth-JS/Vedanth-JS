@@ -140,35 +140,32 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vedanth-JS&l
 
 ---
 
-# 🏆 GitHub Trophies
+# 📂 Featured Repositories
 
 <p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Vedanth-JS&theme=tokyonight&row=1&column=7&no-frame=true"/>
-
+  <a href="https://github.com/Vedanth-JS/smart-traffic-management">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vedanth-JS&repo=smart-traffic-management&theme=tokyonight&hide_border=true" height="120" />
+  </a>
+  <a href="https://github.com/Vedanth-JS/AI-Girlfriend">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vedanth-JS&repo=AI-Girlfriend&theme=tokyonight&hide_border=true" height="120" />
+  </a>
 </p>
-
----
-
-# 💻 LeetCode Stats
-
 <p align="center">
-
-<img src="https://leetcard.jacoblin.cool/vedanth_1_8?theme=dark&font=JetBrains+Mono"/>
-
+  <a href="https://github.com/Vedanth-JS/AI-Resume-Screening-System">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vedanth-JS&repo=AI-Resume-Screening-System&theme=tokyonight&hide_border=true" height="120" />
+  </a>
+  <a href="https://github.com/Vedanth-JS/Online-Exam-Cheating-Detection">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vedanth-JS&repo=Online-Exam-Cheating-Detection&theme=tokyonight&hide_border=true" height="120" />
+  </a>
 </p>
-
----
-
-# 🚀 Featured Projects
-
-| Project | Description |
-|----------|-------------|
-| 🤖 Credit Card Fraud Detection Platform | Enterprise ML platform using Spring Boot, React & FastAPI |
-| ☕ Spring Boot REST API | Authentication, JWT, REST APIs |
-| 📚 NeetCode 150 Solutions | Java solutions with explanations |
-| ⚛️ React Dashboard | Responsive dashboard using React & Tailwind CSS |
-| 🤖 Machine Learning Projects | Python, Scikit-learn & Deep Learning |
+<p align="center">
+  <a href="https://github.com/Vedanth-JS/banking-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vedanth-JS&repo=banking-app&theme=tokyonight&hide_border=true" height="120" />
+  </a>
+  <a href="https://github.com/Vedanth-JS/neetcode-submissions">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vedanth-JS&repo=neetcode-submissions&theme=tokyonight&hide_border=true" height="120" />
+  </a>
+</p>
 
 ---
 
