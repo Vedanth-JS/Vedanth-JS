@@ -142,28 +142,39 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vedanth-JS&l
 
 # 📂 Featured Repositories
 
+| Repository | Tech Stack | Overview / Description |
+|------------|------------|------------------------|
+| [🤖 AI-Girlfriend](https://github.com/Vedanth-JS/AI-Girlfriend) | TypeScript, Next.js | Dynamic web application creating conversational AI companions. |
+| [📄 AI-Resume-Screening-System](https://github.com/Vedanth-JS/AI-Resume-Screening-System) | Python, ML | Machine learning parser to automatically extract, scan, and rank resumes. |
+| [💳 banking-app](https://github.com/Vedanth-JS/banking-app) | TypeScript, React | A secure, responsive web dashboard for personal banking simulation. |
+| [📚 neetcode-submissions](https://github.com/Vedanth-JS/neetcode-submissions) | Java, DSA | Complete solutions and writeups for DSA problems on NeetCode.io. |
+| [👁️ Online-Exam-Cheating-Detection](https://github.com/Vedanth-JS/Online-Exam-Cheating-Detection) | JavaScript, CV | Proctoring platform using computer vision to track behavior and flag anomalies. |
+| [🚗 smart-traffic-management](https://github.com/Vedanth-JS/smart-traffic-management) | Python, OpenCV | Intelligent traffic routing using deep learning vehicle detection models. |
+
+<br/>
+
 <p align="center">
   <a href="https://github.com/Vedanth-JS/smart-traffic-management">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vedanth-JS&repo=smart-traffic-management&theme=tokyonight&hide_border=true" height="120" />
+    <img src="https://github-readme-stats.vercel.app/api/pin?username=Vedanth-JS&repo=smart-traffic-management&theme=tokyonight&hide_border=true" height="120" />
   </a>
   <a href="https://github.com/Vedanth-JS/AI-Girlfriend">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vedanth-JS&repo=AI-Girlfriend&theme=tokyonight&hide_border=true" height="120" />
+    <img src="https://github-readme-stats.vercel.app/api/pin?username=Vedanth-JS&repo=AI-Girlfriend&theme=tokyonight&hide_border=true" height="120" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/Vedanth-JS/AI-Resume-Screening-System">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vedanth-JS&repo=AI-Resume-Screening-System&theme=tokyonight&hide_border=true" height="120" />
+    <img src="https://github-readme-stats.vercel.app/api/pin?username=Vedanth-JS&repo=AI-Resume-Screening-System&theme=tokyonight&hide_border=true" height="120" />
   </a>
   <a href="https://github.com/Vedanth-JS/Online-Exam-Cheating-Detection">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vedanth-JS&repo=Online-Exam-Cheating-Detection&theme=tokyonight&hide_border=true" height="120" />
+    <img src="https://github-readme-stats.vercel.app/api/pin?username=Vedanth-JS&repo=Online-Exam-Cheating-Detection&theme=tokyonight&hide_border=true" height="120" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/Vedanth-JS/banking-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vedanth-JS&repo=banking-app&theme=tokyonight&hide_border=true" height="120" />
+    <img src="https://github-readme-stats.vercel.app/api/pin?username=Vedanth-JS&repo=banking-app&theme=tokyonight&hide_border=true" height="120" />
   </a>
   <a href="https://github.com/Vedanth-JS/neetcode-submissions">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vedanth-JS&repo=neetcode-submissions&theme=tokyonight&hide_border=true" height="120" />
+    <img src="https://github-readme-stats.vercel.app/api/pin?username=Vedanth-JS&repo=neetcode-submissions&theme=tokyonight&hide_border=true" height="120" />
   </a>
 </p>
 
