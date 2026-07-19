@@ -144,11 +144,7 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vedanth-JS&l
 
 | Repository | Tech Stack | Overview / Description |
 |------------|------------|------------------------|
-| [🤖 AI-Girlfriend](https://github.com/Vedanth-JS/AI-Girlfriend) | TypeScript, Next.js | Dynamic web application creating conversational AI companions. |
 | [📄 AI-Resume-Screening-System](https://github.com/Vedanth-JS/AI-Resume-Screening-System) | Python, ML | Machine learning parser to automatically extract, scan, and rank resumes. |
-| [💳 banking-app](https://github.com/Vedanth-JS/banking-app) | TypeScript, React | A secure, responsive web dashboard for personal banking simulation. |
-| [📚 neetcode-submissions](https://github.com/Vedanth-JS/neetcode-submissions) | Java, DSA | Complete solutions and writeups for DSA problems on NeetCode.io. |
-| [👁️ Online-Exam-Cheating-Detection](https://github.com/Vedanth-JS/Online-Exam-Cheating-Detection) | JavaScript, CV | Proctoring platform using computer vision to track behavior and flag anomalies. |
 | [🚗 smart-traffic-management](https://github.com/Vedanth-JS/smart-traffic-management) | Python, OpenCV | Intelligent traffic routing using deep learning vehicle detection models. |
 
 <br/>
