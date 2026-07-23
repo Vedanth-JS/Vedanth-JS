@@ -130,11 +130,11 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vedanth-JS&l
 
 ---
 
-# 🟩 Contribution Grid
+# 📈 Contribution Graph
 
 <p align="center">
 
-<img src="https://ghchart.rshah.org/22D3EE/Vedanth-JS" alt="Vedanth-JS's github contribution grid"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Vedanth-JS&theme=tokyo-night&hide_border=true"/>
 
 </p>
 
