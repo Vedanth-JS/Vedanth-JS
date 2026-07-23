@@ -1,8 +1,9 @@
+
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/light.svg">
-    <img alt="Vedanth J S Banner" src="assets/light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
+    <img alt="Vedanth J S Banner" src="./assets/dark.svg" width="100%">
   </picture>
 </p>
 
@@ -25,8 +26,8 @@ Computer Science Engineering Student • Full Stack Developer • Java Developer
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
 </a>
 
-<a href="https://neetcode.io/profile/vedanth_1_8">
-<img src="https://img.shields.io/badge/NeetCode-0284c7?style=for-the-badge&logo=leetcode&logoColor=white">
+<a href="https://leetcode.com/vedanth_1_8">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white">
 </a>
 
 <a href="https://linkedin.com/in/vedanth-j-s">
@@ -68,7 +69,7 @@ public class Vedanth {
 - ⚛️ Learning React & Next.js
 - 🤖 Exploring Artificial Intelligence & Machine Learning
 - 📚 Learning System Design
-- 🔥 Solving NeetCode 150 Problems
+- 🔥 Solving NeetCode 150 & LeetCode Problems
 
 ---
 
@@ -140,50 +141,35 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vedanth-JS&l
 
 ---
 
-# 📂 Featured Repositories
+# 🏆 GitHub Trophies
 
-| Repository | Tech Stack | Overview / Description |
-|------------|------------|------------------------|
-| [📄 AI-Resume-Screening-System](https://github.com/Vedanth-JS/AI-Resume-Screening-System) | Python, ML | Machine learning parser to automatically extract, scan, and rank resumes. |
-| [👁️ Online-Exam-Cheating-Detection](https://github.com/Vedanth-JS/Online-Exam-Cheating-Detection) | JavaScript, CV | Proctoring platform using computer vision to track behavior and flag anomalies. |
-| [🚗 smart-traffic-management](https://github.com/Vedanth-JS/smart-traffic-management) | Python, OpenCV | Intelligent traffic routing using deep learning vehicle detection models. |
+<p align="center">
 
-<br/>
+<img src="https://github-profile-trophy.vercel.app/?username=Vedanth-JS&theme=tokyonight&row=1&column=7&no-frame=true"/>
+
+</p>
 
 ---
 
-## 🛠️ Flagship Project Showcases
+# 💻 LeetCode Stats
 
-### 📄 [AI Resume Screening System (ATS)](https://github.com/Vedanth-JS/AI-Resume-Screening-System)
-An enterprise-grade, asynchronous Applicant Tracking System designed to modernize recruitment workflows by automating resume screening, parsing, and ranking with advanced AI agents.
+<p align="center">
 
-*   **AI Engine**: Powered by **Google Gemini 1.5** for high-speed document extraction, semantic reasoning, and scoring.
-*   **Multi-Agent Pipeline**: Leveraging **LangGraph** to coordinate specialized agents (Resume Parser, Skill Matcher, Bias Detector, and Scoring Engine).
-*   **High-Concurrency Backend**: Built with **FastAPI** (Python 3.11) and **Celery + Redis** to screen 100+ resumes asynchronously in parallel.
-*   **Vector Search**: Integrated with **PostgreSQL + pgvector** for storing relational candidate data and computing skill similarity embeddings.
-*   **Analytics Dashboard**: Premium glassmorphic interface built with **React 18 + Vite**, using Server-Sent Events (SSE) for zero-latency upload progress sync.
+<img src="https://leetcard.jacoblin.cool/vedanth_1_8?theme=dark&font=JetBrains+Mono"/>
+
+</p>
 
 ---
 
-### 🚗 [AI-Powered Smart Traffic Management](https://github.com/Vedanth-JS/smart-traffic-management)
-An end-to-end intelligent city grid traffic manager designed to optimize flow and mitigate congestion using real-time Computer Vision and Predictive AI.
+# 🚀 Featured Projects
 
-*   **Vehicle Tracking**: Incorporates **YOLOv8** and **OpenCV** to detect, count, and classify vehicles across multiple lanes and intersections with high precision.
-*   **Predictive Forecasting**: Features a **PyTorch LSTM** deep learning model trained to forecast future lane density patterns.
-*   **Adaptive Signal Control**: Dynamically adjusts traffic light timings based on real-time vehicle density to minimize idling times.
-*   **Live Dashboard**: High-fidelity control panel built with **React** & **Tailwind CSS** showing zero-latency intersection health metrics via **WebSockets**.
-*   **Incident Logging**: Automatically flags traffic anomalies, road hazards, and collisions, with admin control panels to override lights for emergency vehicle routing.
-
----
-
-### 👁️ [ExamGuard: AI-Powered Exam Proctoring](https://github.com/Vedanth-JS/Online-Exam-Cheating-Detection)
-An automated, full-stack online examination proctoring solution designed to detect, track, and flag academic dishonesty in real-time.
-
-*   **Edge Computer Vision**: Employs **TensorFlow.js (BlazeFace)** directly on the client browser web camera to count faces, verify student presence, and detect looking away without server overhead.
-*   **Tamper Proofing**: Enforces strict security by detecting tab switching, intercepting window focus loss, blocking keyboard copy-paste shortcuts (`Ctrl+C`, `Ctrl+V`), and disabling right-click inspections.
-*   **Proctor Command Center**: Sleek administration dashboard using **WebSockets** (`ws`) to monitor active candidate feeds and broadcast targeted real-time warnings directly to exam takers.
-*   **Relational Logs**: Utilizes **Node.js, Express, and SQLite3** to log exam events and compile automated integrity reports highlighting "Risk Scores" and "Severity Heatmaps".
-*   **Aesthetic UI**: Formatted as a high-fidelity dashboard styled with **React 18, Vite, and Tailwind CSS**.
+| Project | Description |
+|----------|-------------|
+| 🤖 Credit Card Fraud Detection Platform | Enterprise ML platform using Spring Boot, React & FastAPI |
+| ☕ Spring Boot REST API | Authentication, JWT, REST APIs |
+| 📚 NeetCode 150 Solutions | Java solutions with explanations |
+| ⚛️ React Dashboard | Responsive dashboard using React & Tailwind CSS |
+| 🤖 Machine Learning Projects | Python, Scikit-learn & Deep Learning |
 
 ---
 
@@ -256,3 +242,4 @@ An automated, full-stack online examination proctoring solution designed to dete
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:7C3AED,50:22D3EE,100:10B981&section=footer"/>
 </p>
+````
