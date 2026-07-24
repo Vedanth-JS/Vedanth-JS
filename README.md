@@ -32,9 +32,6 @@ Computer Science Engineering Student • Full Stack Developer • Java Developer
 
 ---
 
-## 🐍 Contribution Grid
-
-<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vedanth-JS/Vedanth-JS/output/github-contribution-grid-snake-dark.svg">
